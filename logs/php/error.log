@@ -1,0 +1,37 @@
+[24-Jan-2023 17:52:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_password() in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php:26
+Stack trace:
+#0 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template.php(785): require()
+#1 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template.php(718): load_template('/Users/natasham...', false, Array)
+#2 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/archive-business.php(35): get_template_part('template-parts/...', 'business')
+#4 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template-loader.php(106): include('/Users/natasham...')
+#5 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-blog-header.php(19): require_once('/Users/natasham...')
+#6 /Users/natashamatthews/Local Sites/business-directory/app/public/index.php(17): require('/Users/natasham...')
+#7 {main}
+  thrown in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php on line 26
+[24-Jan-2023 17:54:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_password() in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php:26
+Stack trace:
+#0 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template.php(785): require()
+#1 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template.php(718): load_template('/Users/natasham...', false, Array)
+#2 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/archive-business.php(35): get_template_part('template-parts/...', 'business')
+#4 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template-loader.php(106): include('/Users/natasham...')
+#5 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-blog-header.php(19): require_once('/Users/natasham...')
+#6 /Users/natashamatthews/Local Sites/business-directory/app/public/index.php(17): require('/Users/natasham...')
+#7 {main}
+  thrown in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php on line 26
+[24-Jan-2023 17:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_password() in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php:26
+Stack trace:
+#0 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template.php(785): require()
+#1 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template.php(718): load_template('/Users/natasham...', false, Array)
+#2 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/archive-business.php(35): get_template_part('template-parts/...', 'business')
+#4 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-includes/template-loader.php(106): include('/Users/natasham...')
+#5 /Users/natashamatthews/Local Sites/business-directory/app/public/wp-blog-header.php(19): require_once('/Users/natasham...')
+#6 /Users/natashamatthews/Local Sites/business-directory/app/public/index.php(17): require('/Users/natasham...')
+#7 {main}
+  thrown in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php on line 26
+[24-Jan-2023 19:57:20 UTC] PHP Parse error:  syntax error, unexpected identifier "get_the_ID", expecting ":" in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php on line 32
+[24-Jan-2023 20:00:41 UTC] PHP Parse error:  syntax error, unexpected identifier "get_the_ID", expecting ":" in /Users/natashamatthews/Local Sites/business-directory/app/public/wp-content/themes/twentyninteen-child-theme/template-parts/content/content-excerpt-business.php on line 31
+[01-Feb-2023 21:55:44 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[01-Feb-2023 21:55:44 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), load_default_textdomain, determine_locale, get_locale, get_option
